@@ -1,0 +1,114 @@
+login*,
+login*:before,
+login*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.mybackground{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #9a9b9b36, #ffd6b5);
+  position: fixed;
+  top: 0;
+  left: 0;
+} 
+.mybackground .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+        #84a9ff,
+        #b5e1ff
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff8269,
+        #ffd293
+    );
+    right: -30px;
+    bottom: -80px;
+}
+.myform{
+    height: 180px;
+    width: 400px;
+    background-color: rgba(119, 119, 119, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(145, 145, 145, 0.6);
+    padding: 50px 35px;
+}
+.myform *{
+    font-family: 'Poppins',sans-serif;
+    color: #030303;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.myform h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.mylabel{
+    display: block;
+    margin-top: 0px;
+    padding-bottom: 9px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.myinput{
+    display: block;
+    height: 50px;
+    width: 95%;
+    background-color: rgba(152, 127, 184, 0.116);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #2c2c2c;
+}
+.mybutton{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    border: 1px solid #dfdfdf;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mybutton2{
+    margin-top: 30px;
+    width: 83%;
+    background-color: #ffffffb4;
+    color: #080710;
+    border: 1px solid #dfdfdf;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
